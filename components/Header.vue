@@ -1,5 +1,5 @@
 <template>
-  <div class="py-1">
+  <div class="py-1 fixed w-full bg-primary shadow__header">
     <div class="flex justify-between container mx-auto">
       <div class="flex items-center">
         <span>
@@ -27,3 +27,9 @@ export default {
   name: "Header",
 };
 </script>
+
+<style>
+.shadow__header {
+  box-shadow: 2px 7px 20px 1px rgba(9, 0, 0, 0.25);
+}
+</style>

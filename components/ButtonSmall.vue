@@ -27,4 +27,9 @@ export default {
   font-size: 17px;
   line-height: 80px;
 }
+
+.btn:hover {
+  background-color: var(--hover_btn);
+  transition: all 0.3s;
+}
 </style>

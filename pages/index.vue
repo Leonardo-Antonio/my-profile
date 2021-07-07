@@ -1,7 +1,16 @@
 <template>
   <div>
-    <div class="h-screen">
-      <div></div>
+    <MenuFixed />
+    <div class="h-screen flex items-center justify-center">
+      <div>
+        <Home />
+      </div>
+    </div>
+
+    <div class="h-screen flex items-center justify-center">
+      <div>
+        <AboutMe />
+      </div>
     </div>
   </div>
 </template>
