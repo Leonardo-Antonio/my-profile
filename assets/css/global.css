@@ -6,6 +6,7 @@
   --decoration: #64ffda;
   --title: #ccd6f6;
   --hover_btn: #64ffdb17;
+  --secondary: #112240;
 }
 
 .bg-primary {
@@ -41,7 +42,7 @@ button {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #8892b0;
+  color: var(--second);
 }
 
 .text-md {
@@ -50,13 +51,14 @@ button {
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  color: #8892b0;
+  color: var(--second);
 }
 
 .btn-primary {
   border: 2px solid var(--decoration);
   box-sizing: border-box;
   border-radius: 50px;
+  transition: all 0.3s;
 }
 
 .btn-primary:hover {
@@ -83,8 +85,37 @@ button {
   color: var(--title);
 }
 
-.line__title {
+.  {
   width: 70%;
   height: 2px;
   background: var(--decoration);
+}
+
+.space-sm {
+  height: 2rem;
+}
+
+
+
+/* change style element */
+
+.el-tabs__item {
+  color: var(--second) !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.el-tabs__item.is-active {
+  color: var(--decoration) !important;
+}
+
+.el-tabs__active-bar {
+  background-color: var(--decoration) !important;
+}
+
+.el-tabs__nav-wrap::after {
+  background-color: var(--second);
 }

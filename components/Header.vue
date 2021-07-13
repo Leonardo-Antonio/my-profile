@@ -1,5 +1,5 @@
 <template>
-  <div class="py-1 fixed w-full bg-primary shadow__header">
+  <div class="py-1 fixed w-full bg-primary shadow__header z-50">
     <div class="flex justify-between container mx-auto">
       <div class="flex items-center">
         <span>

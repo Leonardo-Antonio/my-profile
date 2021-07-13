@@ -93,6 +93,7 @@ export default {
   height: 280px;
   bottom: 15px;
   right: 15px;
+  transition: all 0.5s;
 }
 
 .img:hover {
@@ -106,6 +107,7 @@ export default {
   height: 280px;
   border: 1px solid var(--decoration);
   border-radius: 10px;
+  transition: all 0.5s;
 }
 
 .w-230 {
